@@ -13,9 +13,11 @@
   <body>
     <%= render 'shared/navbar' %>
     <%= render 'shared/notices' %>
-    <%= yield %>
-    <%= javascript_include_tag 'application' %>
-    <%= yield(:after_js) %>
+    <div class="content-wrapper">
+      <%= yield %>
+      <%= javascript_include_tag 'application' %>
+      <%= yield(:after_js) %>
+    </div>
     <%= render 'shared/footer' %>
   </body>
 </html>

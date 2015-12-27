@@ -1,0 +1,23 @@
+.bg-img {
+  background-image: image-url('banner-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: -20px;
+  .row {
+    margin-bottom: 0;
+  }
+}
+.banner-content {
+  height: 630px;
+  .btn-large {
+    margin-top: 250px;
+  }
+}
+.bg-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.cta {
+  margin: auto;
+  text-align: center;
+}
