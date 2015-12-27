@@ -7,7 +7,12 @@
           <li><a href="#">Sass</a></li>
           <li><a href="#">Components</a></li>
           <li><a href="#">Javascript</a></li>
-          <li><a href="#">Mobile</a></li>
+          <% if student_signed_in? %>
+            <li><%= link_to "Logout", destroy_student_session_path, method: :delete %></li>
+          <% else %>
+            <li><%= link_to "Sign in", new_student_session_path %></li>
+            <li><%= link_to "Sign up", new_student_registration_path %></li>
+          <% end %>
         </ul>
         <ul class="side-nav" id="mobile-demo">
           <li><a href="#">Sass</a></li>

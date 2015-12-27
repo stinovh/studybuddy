@@ -26,7 +26,7 @@ gem "figaro"
 gem 'materialize-sass'
 gem "autoprefixer-rails"
 gem 'simple_form'
-
+gem 'devise'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
