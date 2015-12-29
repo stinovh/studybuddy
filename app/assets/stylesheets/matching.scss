@@ -1,0 +1,100 @@
+.full-matching-card {
+  background-color: #E6E6E6;
+}
+#matching-card {
+  max-width: 700px;
+  margin: auto;
+  .col {
+    padding: 0;
+  }
+  .card {
+    margin: 0;
+  }
+  .card-header {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #2F5A88;
+  }
+  #company-logo-card {
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+  }
+  h1 {
+    font-size: 1.4rem;
+    line-height: 110%;
+    margin: 1rem 0 1.68rem 0;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    margin: 1rem 0 0.7rem 0;
+  }
+  .badge {
+    color: white;
+    position: absolute;
+    background: #26a69a;
+    top: 30px;
+    right: 0;
+    border-radius: 2px;
+    font-size: 0.8rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+  }
+  .card-content {
+    position: relative;
+    padding-top: 30px;
+    p {
+      padding-bottom: 20px;
+    }
+  }
+  #card-location {
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    i {
+      vertical-align: middle;
+    }
+  }
+  .card-share {
+    position: absolute;
+    top: -28px;
+    right: 7px;
+  }
+  .matching-buttons {
+    margin-top: 2.5rem;
+    text-align: center;
+    .col.s6 {
+      padding-bottom: 2.5rem;
+    }
+  }
+  #approve-match-btn {
+    background-color: #2A4E77;
+    font-size: 3.5rem;
+    height: 3.5rem;
+    line-height: 22px;
+    outline: 0;
+    padding: 1rem 2.5rem;
+    border-radius: 10px;
+    i {
+      font-size: 3.5rem;
+    }
+  }
+  #deny-match-btn {
+    background-color: white;
+    color: #2A4E77;
+    height: 3.5rem;
+    line-height: 22px;
+    outline: 0;
+    padding: 1rem 2.5rem;
+    border-radius: 10px;
+    i {
+      font-size: 3.5rem;
+    }
+  }
+}
